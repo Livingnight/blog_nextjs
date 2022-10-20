@@ -36,7 +36,7 @@ export default async function handler(req, res) {
 		const db = client.db()
 
 		try {
-			const result = await db.coloection('messages').insertOne(newMessage)
+			const result = await db.collection('messages').insertOne(newMessage)
 			newMessage.id = result.insertedId
 		} catch (error) {
 			client.close()
