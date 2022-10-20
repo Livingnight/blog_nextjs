@@ -1,5 +1,5 @@
+import ContactForm from '../components/contact/contact'
+
 export default function Contacts() {
-  return (
-    <div>Contacts</div>
-  )
+	return <ContactForm />
 }
