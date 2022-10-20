@@ -9,7 +9,7 @@ export default function ContactForm() {
 					<div className={classes.control}>
 						<label htmlFor='email'>Your Name</label>
 						<input
-							type='text'
+							type='email'
 							id='email'
 							required
 						/>
