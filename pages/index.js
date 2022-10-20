@@ -8,7 +8,7 @@ export default function Home(props) {
 	return (
 		<Fragment>
 			<Hero />
-			<FeaturedPosts posts={props.post} />
+			<FeaturedPosts posts={props.posts} />
 		</Fragment>
 	)
 }
